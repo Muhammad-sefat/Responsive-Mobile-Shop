@@ -24,22 +24,31 @@
 
     <header class="md:container md:mx-auto bg-blue-600">
         <nav class="bg-blue-900 h-14 flex items-center justify-between">
-                <div class="flex items-center ml-28">
+                <div class="flex  items-center ml-28">
                     <i class="fa-solid fa-mobile mr-2 text-white text-2xl"></i>
-                    <h2 class="text-2xl text-white mr-5 font-bold">MobileShop</h2>
-                    <div class="ml-8">
-                        <a class="text-base text-white mr-3" href="#">Home</a>
-                        <a class="text-base text-white mr-3" href="#">service</a>
-                        <a class="text-base text-white mr-3" href="#">Contact</a>
-                        <a class="text-base text-white mr-3" href="#">About Us</a>
+                    <h2 class="text-2xl text-white mr-5 font-bold">MobileShop</h2> <i class="fa-solid fa-bars text-white text-xl ml-10 lg:hidden"></i>
+                    <div class="hidden lg:block ml-8">
+                        <a class="text-base text-white mr-3 font-medium" href="#">Home</a>
+                        <a class="text-base text-white mr-3 font-medium" href="#">service</a>
+                        <a class="text-base text-white mr-3 font-medium" href="#">Contact</a>
+                        <a class="text-base text-white mr-3 font-medium" href="#">About Us</a>
                     </div>
                 </div>
-                <div class="mr-28">
+                <div class="hidden lg:block mr-28">
                     <a class="mr-5 text-white text-base" href="#">LogIn</a>
                     <a class="mr-5 text-white text-base btn bg-orange-600 border-0" href="#">SignUp</a>
                 </div>
-            <!-- </div> -->
         </nav>
+        <div class="w-full lg:w-1/2 mx-auto text-center">
+            <h3 class="mt-28 text-3xl lg:text-5xl text-white font-bold leading-normal">Our Shop Is Best Shop in our <span style="color: rgb(245, 146, 110);"> whole Bangledesh</span></h3>
+            <p class="font-normal text-base text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus nesciunt suscipit accusantium exercitationem quisquam dignissimos dicta sed similique commodi?</p>
+            <div class="space-y-10">
+                <button class="btn bg-orange-600 text-white text-lg">See More</button>
+                <i class="fa-solid fa-circle-play ml-5 text-xl text-white"></i>
+                <a class="ml-1 text-lg text-white font-semibold">Play Video</a>
+            </div>
+            <img class="translate-y-24 p-3 lg:translate-y-36" src="images/phone.png" alt="phone">
+        </div>
 
     </header>
     
